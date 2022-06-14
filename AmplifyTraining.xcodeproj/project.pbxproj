@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45308808E418638FF995A215 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 367923133E77ED918CCE834D /* awsconfiguration.json */; };
 		58C4469D28583BB100F7CD27 /* AmplifyTrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4469C28583BB100F7CD27 /* AmplifyTrainingApp.swift */; };
 		58C4469F28583BB100F7CD27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4469E28583BB100F7CD27 /* ContentView.swift */; };
 		58C446A128583BB200F7CD27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C446A028583BB200F7CD27 /* Assets.xcassets */; };
 		58C446A428583BB200F7CD27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C446A328583BB200F7CD27 /* Preview Assets.xcassets */; };
+		58C446AC28583CA200F7CD27 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 58C446AA28583CA200F7CD27 /* amplifyconfiguration.json */; };
+		58C446AD28583CA200F7CD27 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 58C446AB28583CA200F7CD27 /* awsconfiguration.json */; };
+		91E91B29AF1B6AC6F781636A /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B5C59E5C74ACB46B83E675C8 /* amplifyconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		367923133E77ED918CCE834D /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		58C4469928583BB100F7CD27 /* AmplifyTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmplifyTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C4469C28583BB100F7CD27 /* AmplifyTrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifyTrainingApp.swift; sourceTree = "<group>"; };
 		58C4469E28583BB100F7CD27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58C446A028583BB200F7CD27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58C446A328583BB200F7CD27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58C446AA28583CA200F7CD27 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		58C446AB28583CA200F7CD27 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		B5C59E5C74ACB46B83E675C8 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,7 @@
 			children = (
 				58C4469B28583BB100F7CD27 /* AmplifyTraining */,
 				58C4469A28583BB100F7CD27 /* Products */,
+				79F836A33B9BBEB94F7963C9 /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +62,8 @@
 			children = (
 				58C4469C28583BB100F7CD27 /* AmplifyTrainingApp.swift */,
 				58C4469E28583BB100F7CD27 /* ContentView.swift */,
+				58C446AA28583CA200F7CD27 /* amplifyconfiguration.json */,
+				58C446AB28583CA200F7CD27 /* awsconfiguration.json */,
 				58C446A028583BB200F7CD27 /* Assets.xcassets */,
 				58C446A228583BB200F7CD27 /* Preview Content */,
 			);
@@ -65,6 +76,15 @@
 				58C446A328583BB200F7CD27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79F836A33B9BBEB94F7963C9 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				367923133E77ED918CCE834D /* awsconfiguration.json */,
+				B5C59E5C74ACB46B83E675C8 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +147,10 @@
 			files = (
 				58C446A428583BB200F7CD27 /* Preview Assets.xcassets in Resources */,
 				58C446A128583BB200F7CD27 /* Assets.xcassets in Resources */,
+				58C446AD28583CA200F7CD27 /* awsconfiguration.json in Resources */,
+				58C446AC28583CA200F7CD27 /* amplifyconfiguration.json in Resources */,
+				45308808E418638FF995A215 /* awsconfiguration.json in Resources */,
+				91E91B29AF1B6AC6F781636A /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
